@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" class="re">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="" class="mostrar" id="formulario">
+        <input type="email" id="txtEmail" placeholder="Ingresa tu email">
+        <br><br>
+        <input type="password" id="txtPassword" placeholder="Ingresa tu password">
+        <br><br>
+        <input type="button" value="Registrar" id="btnRegistrar">
+        <br><br>
+        <input type="button" value="Ingresar" id="btnIngresar">
+        <br><br>
+        
+        <button type="button" id="btngoogle"> <img src="/formularioweb2/Google.png" alt="30" height="30" />Ingreso con google</button>
+        <br><br>
+        <button type="button" id="btnfacebook"> <img src="/formularioweb2/Facebook.png" alt="50" height="30" />Ingreso con facebook</button>
+        <br><br>
+    </form>
+
+    
+    <div class="contenidoDeLaWeb ocultar" id="contenidoDeLaWeb">
+    <input type="button" value="Cerrar sesion" id="btnCerrarSesion">
+
+    <h3>Aquí verás el contenido de la web</h3>
+    </div>
+    <img src="ZT3B7MBM7VCWZARORD5YOF6NRE.jfif">
+    </div>
+    <div class="resultado" id="resultado">
+    </div>
+
+<div id="comentarios">
+<input type="text" placeholder="escribe el titulo" id="txttitulo">
+<br><br>
+<input type="text" placeholder="escribe la descripcion" id="txtdescripcion"> 
+<br><br>
+<input type="button" value="publicar" id="btnpublicar"><br><br>
+<ul class="verDatosEnpantalla" id="verDatosEnpantallatexto"></ul>
+
+</div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js">  </script> 
+    <script src="main.js">  </script>
+</body>
+
+</html>
